@@ -35,7 +35,6 @@ header h1{
 margin-bottom: 0px;
 }
 header h3{
-    background-color: antiquewhite;
     margin-top: 4px;
     color: var(--muted);
     text-align: center;
