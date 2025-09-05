@@ -1,0 +1,93 @@
+:root{
+    --bg:#0f1724;
+    ---card:#0b1220;
+    --muted:#94a3b8;
+    --accent:#7dd3fc;
+    --glass: rgba(255,255,255,0.03);
+    --color:#e5ebf7;
+
+    
+}
+
+
+*{
+    border-radius: 8px;
+}
+body{
+    background-color: var(--bg);
+    color: var(--color);
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+
+}
+header{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header h1{
+margin-bottom: 0px;
+}
+header h3{
+    margin-top: 4px;
+    color: var(--muted)
+}
+form{
+    display: flex;
+
+}
+
+form input {
+    flex: 1;
+    background-color: var(--glass);
+    border: #0b1220;
+}
+div{
+    background-color: var(---card);
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+
+}
+ul p{
+    margin-top: 4px;
+    margin-bottom: 2px;
+    height: 60px;
+    background-color: var(--glass);
+    display: flex;
+    align-items: center;
+
+}
+button{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    margin-right:10px;
+    border: #0b1220;
+    background-color: var(--color);
+
+}
+#addbtn{
+    width: 64px;
+    height: 32px;
+    background-color: var(--accent);
+}
+footer{
+    margin-left: 100px;
+    color: var(--muted);
+}
+#underFooter{
+    text-align: center;
+    display: block;
+    color: var(--muted);
+}
+ul{
+    flex:1 ;
+}
