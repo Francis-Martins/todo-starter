@@ -1,6 +1,6 @@
 :root{
     --bg:#0f1724;
-    ---card:#0b1220;
+    --card:#0b1220;
     --muted:#94a3b8;
     --accent:#7dd3fc;
     --glass: rgba(255,255,255,0.03);
@@ -35,8 +35,10 @@ header h1{
 margin-bottom: 0px;
 }
 header h3{
+    background-color: antiquewhite;
     margin-top: 4px;
-    color: var(--muted)
+    color: var(--muted);
+    text-align: center;
 }
 form{
     display: flex;
@@ -47,9 +49,12 @@ form input {
     flex: 1;
     background-color: var(--glass);
     border: #0b1220;
+    color: white;
+    font-size: large;
+    padding: 10px;
 }
 div{
-    background-color: var(---card);
+    background-color: var(--card);
     display: flex;
     flex-direction: column;
     max-width: 800px;
@@ -63,6 +68,7 @@ ul p{
     background-color: var(--glass);
     display: flex;
     align-items: center;
+
 
 }
 button{
@@ -80,14 +86,24 @@ button{
     background-color: var(--accent);
 }
 footer{
-    margin-left: 100px;
+    text-align: center;
     color: var(--muted);
 }
 #underFooter{
     text-align: center;
     display: block;
     color: var(--muted);
+    text-align: center;
 }
 ul{
     flex:1 ;
+    padding: 0;       
+    
+}
+
+@media (max-width: 400px) {
+    ul p{
+        
+        height: 40px;
+    }
 }
